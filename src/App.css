@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.quote-cont {
+	margin: 0 auto;
+	width: 450px;
+	border-radius: 12px;
+	z-index: 4;
+}
+body {
+	padding-top: 15vh;
+	background-color: rgb(39, 174, 96);
+	color: reg(39, 174, 96);
+	/* font-family: "Inter", sans-serif; */
+	font-family: "Rubik", sans-serif;
+}
+.custom-padding {
+	padding: 40px;
+}
+.author-cont {
+	margin-left: 170px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+a {
+	padding: 4px 8px;
+	margin-right: 10px;
+	border-radius: 12px;
+	font-size: 22px;
+	background-color: rgb(39, 174, 96);
+	color: white;
+}
+.quote {
+	font-size: 24px;
+	transition: all 0s;
+}
+button {
+	background-color: rgb(39, 174, 96) !important;
+	color: white !important;
+}
+.author {
+	font-family: cursive !important;
+	color: black;
+}
